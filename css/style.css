@@ -1,0 +1,96 @@
+* {
+  padding: 0%;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header {
+}
+#header1,
+ul,
+li {
+  background-color: white;
+  opacity: 1;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  padding: 0px;
+  text-decoration-line: none;
+}
+#mainheading {
+  margin-right: 55%;
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(90deg, red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-left: 30px;
+}
+ul,
+li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #001836;
+  margin-left: 10px;
+  padding: 10px;
+}
+li:hover {
+  background-color: #001836;
+  color: white;
+  margin: 0;
+}
+#Welcomepage {
+  height: 350px;
+  width: 900px;
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 14%;
+  opacity: 0.9;
+  background-image: url(internimage.jpg);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-radius: 10px;
+}
+
+#Welcomepage h1,
+p,
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  top: 10px;
+  left: 50%;
+}
+#innerdiv {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 100%;
+  width: 50%;
+}
+#innerdiv h3 {
+  margin-top: 10px;
+}
+#innerdiv p {
+  margin-top: 50px;
+}
+#keyskill {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(2, 69, 133);
+  padding: 20px;
+}
+#keyskill img {
+  height: 60px;
+  width: 60px;
+  margin-left: 110px;
+}
+#keyskill img,
+h1 {
+  color: wheat;
+}
